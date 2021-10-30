@@ -24,10 +24,10 @@ struct ContentView: View {
                         .renderingMode(.original)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 180, height: 180, alignment: .center)
-//                    Text("81°")
-//                        .font(.system(size: 70, weight: .medium))
-//                        .foregroundColor(.white)
-//                        padding(.bottom, 40)
+                    Text("81°")
+                        .font(.system(size: 70, weight: .medium))
+                        .foregroundColor(.white)
+                        padding(.bottom, 40)
 
 //                    HStack(spacing: 8){
 //                        WeekDayWeather(dayOfWeek: "Tue", imageName: "sun.dust.fill", temp: 76)
